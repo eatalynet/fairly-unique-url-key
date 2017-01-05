@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Eataly_FairlyUniqueUrlKey>
+            <version>1.0.0</version>
+        </Eataly_FairlyUniqueUrlKey>
+    </modules>
+    <global>
+        <models>
+            <eataly_fairlyuniqueurlkey>
+                <class>Eataly_FairlyUniqueUrlKey_Model</class>
+            </eataly_fairlyuniqueurlkey>
+            <enterprise_catalog>
+                <rewrite>
+                    <product_attribute_backend_urlkey>Eataly_FairlyUniqueUrlKey_Model_Product_Attribute_Backend_Urlkey</product_attribute_backend_urlkey>
+                </rewrite>
+            </enterprise_catalog>
+        </models>
+        <resources>
+            <eataly_fairlyuniqueurlkey_setup>
+                <setup>
+                    <module>Eataly_FairlyUniqueUrlKey</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </eataly_fairlyuniqueurlkey_setup>
+        </resources>
+    </global>
+</config>

@@ -1,0 +1,16 @@
+{
+    "name": "eataly/fairly-unique-url-key",
+    "description": "Since Magento EE 1.13 the url key attribute of a product must be unique across all store views. This module makes it unique only in the same store view, so that the same product in another store view can have the same url key.",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "type": "magento-module",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Alessandro Niciforo",
+            "email":"a.niciforo@eataly.it"
+        }
+    ]
+}

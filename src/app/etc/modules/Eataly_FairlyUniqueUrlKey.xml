@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Eataly_FairlyUniqueUrlKey>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Enterprise_Catalog />
+            </depends>
+        </Eataly_FairlyUniqueUrlKey>
+    </modules>
+</config>
