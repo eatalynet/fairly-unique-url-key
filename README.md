@@ -6,16 +6,7 @@ Since Magento EE 1.13 the url key attribute of a product must be unique across a
 
 E.g.:
 
-I have many websites and store views:
-- de_de
-- de_it
-- de_en
-- uk_de
-- uk_it
-- uk_en
-- it_de
-- it_it
-- it_en
+I have many websites and store views: `de_de`,`de_it`,`de_en`,`uk_de`,`uk_it`,`uk_en`,`it_de`,`it_it`,`it_en`
 
 I have the product "Pink Unicorn" that is salable on all these store views. I want to set for all these store views these url keys:
 
