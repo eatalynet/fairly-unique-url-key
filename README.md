@@ -1,3 +1,5 @@
+# Fairly Unique Url Key - Magento Module
+
 ## Overview
 
 Since Magento EE 1.13 the url key attribute of a product must be unique across all store views. This module makes it unique only in the same store view, so that the same product in another store view can have the same url key.
