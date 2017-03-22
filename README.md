@@ -43,7 +43,7 @@ In your `composer.json`, in the section `repositories`, add this repository:
 
     {
         "type": "vcs",
-        "url": "git://github.com/eataly/magento-fairly-unique-url-key.git"
+        "url": "git@github.com:eatalynet/fairly-unique-url-key.git"
     }
 
 Then open a terminal in the folder containing the `composer.json` and run:
@@ -54,13 +54,13 @@ Then open a terminal in the folder containing the `composer.json` and run:
 
 Go in your project root folder and run
 
-    git submodule add git://github.com/eataly/magento-fairly-unique-url-key.git .modman/Eataly_FairlyUniqueUrlKey
+    git submodule add git@github.com:eatalynet/fairly-unique-url-key.git .modman/Eataly_FairlyUniqueUrlKey
     modman deploy Eataly_FairlyUniqueUrlKey
 
 Clean the cache
 
 ### Manually
 
-* Download latest version [here](https://github.com/eataly/magento-fairly-unique-url-key/archive/master.zip)
+* Download latest version [here](https://github.com/eatalynet/fairly-unique-url-key/archive/1.0.0.zip)
 * Unzip in Magento root folder
 * Clean the cache
